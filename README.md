@@ -1,2 +1,2 @@
 # lab-config-repository
-A lab test repo
+A lab test Spring Cloud Config repository

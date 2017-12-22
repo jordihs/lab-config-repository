@@ -11,6 +11,12 @@ eureka:
 management:
   security:
     enabled: false
+
+spring:
+  boot:
+    admin:
+      url: http://localhost:8010/admin/api/applications
+      auto-deregistration: true
 ---
 spring:
   profiles: subject

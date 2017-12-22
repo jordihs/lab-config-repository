@@ -1,10 +1,16 @@
 ---
 
 eureka:
+  instance:
+    leaseRenewalIntervalInSeconds: 10
   client:
+    registryFetchIntervalSeconds: 5
     serviceUrl: 
       defaultZone: http://localhost:8010/eureka/
 
+management:
+  security:
+    enabled: false
 ---
 spring:
   profiles: subject
